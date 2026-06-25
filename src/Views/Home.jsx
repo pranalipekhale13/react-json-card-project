@@ -4,6 +4,7 @@ import BodyContainer from "../Component/BodyContainer";
 import { TOURNAMENTS } from "../Config";
 import { useState } from "react";
 import Navbar from "../Component/Navbar";
+import Footer from "../Component/Footer";
 function Home() {
   return (
     <div>
@@ -30,6 +31,7 @@ function Home() {
         </div>
       </section>
     </BodyContainer>
+    <Footer />
     </div>
   );
 }

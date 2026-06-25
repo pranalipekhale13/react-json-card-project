@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './Views/About';
 import Contact from './Views/Contact';
 import Home from './Views/Home';
+import Footer from './Component/Footer';
 import './index.css';
 
 const root = createRoot(document.getElementById('root'));
@@ -14,5 +15,6 @@ root.render(
       <Route path='/about' element={<About />} />
       <Route path='/contact' element={<Contact />} />
     </Routes>
+    <footer />
   </BrowserRouter>,
 );

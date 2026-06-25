@@ -5,16 +5,13 @@ import { TOURNAMENTS } from "../Config";
 import { useState } from "react";
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
+import PageTitle from "../Component/PageTitle";
 function Home() {
   return (
     <div>
       <Navbar />
-    <BodyContainer>
-      <section className="hero">
-        <h1>Welcome to SportsHub</h1>
-        <p>Explore popular sports tournaments from around the world.</p>
-      </section>                                                                                                                        
-
+       <BodyContainer>
+      <PageTitle title="Welcome to SportsHub" subtitle="Explore popular sports tournaments from around the world." />
       <section className="tournament-section">
         <h2>Featured Tournaments</h2>
         <p className="subtitle">

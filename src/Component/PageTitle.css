@@ -1,0 +1,15 @@
+.page-title{
+      background: linear-gradient(135deg, #dbeafe, #eff6ff);
+     padding: 70px 20px;
+     text-align: center;
+    
+}
+.title{
+color: #1e3a8a;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.subtitle{
+    color: #475569;
+  font-size: 18px;
+}

@@ -2,23 +2,17 @@ import "./About.css";
 import BodyContainer from "../Component/BodyContainer";
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
+import PageTitle from "../Component/PageTitle";
 function About() {
   return (
     <div>
       <Navbar />
       <BodyContainer>
-      <main className="about-page">
-        <section className="about-hero">
-          <p className="about-label">ABOUT SPORTSHUB</p>
-          <h1>Your Sports Tournament Discovery Platform</h1>
-          <p className="about-intro">
-          SportsHub is a React-based web application created for sports fans
+        <PageTitle subtitle="About SportsHub" title="Learn more about our sports tournament discovery platform." subtitle="SportsHub is a React-based web application created for sports fans
           who want to explore popular tournaments from different sports in one
           place. It brings together tournament details such as location, season,
-          participating teams or players, and current event status.
-        </p>
-      </section>
-
+          participating teams or players, and current event status." />
+        <main className="about-page">
       <section className="about-story">
         <div className="story-content">
           <h2>Our Purpose</h2>

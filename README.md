@@ -1,16 +1,24 @@
-# React + Vite
+# SportsHub - Sports Tournament Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SportsHub is a React-based web application that allows users to explore popular sports tournaments from around the world. The application displays tournament information dynamically using JSON data and reusable React components.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Display sports tournament data using JSON
+- Dynamic tournament cards using the `map()` method
+- Reusable `TournamentCard` component using props
+- Navigation using React Router
+- Home, About, and Contact pages
+- Responsive navbar and footer
+- Sports categories such as Cricket, Football, Tennis, Basketball, Kabaddi, Badminton, Hockey, Motorsport, and Multi-Sport
+- Responsive design for desktop, tablet, and mobile devices
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React JS
+- React Router DOM
+- JavaScript
+- JSON
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

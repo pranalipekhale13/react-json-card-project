@@ -5,50 +5,148 @@ import Footer from "../Component/Footer";
 function About() {
   return (
     <div>
-    <BodyContainer>
       <Navbar />
-      <div className="about-page">
+      <BodyContainer>
+      <main className="about-page">
+        <section className="about-hero">
+          <p className="about-label">ABOUT SPORTSHUB</p>
+          <h1>Your Sports Tournament Discovery Platform</h1>
+          <p className="about-intro">
+          SportsHub is a React-based web application created for sports fans
+          who want to explore popular tournaments from different sports in one
+          place. It brings together tournament details such as location, season,
+          participating teams or players, and current event status.
+        </p>
+      </section>
 
-      <h1>About SportsHub</h1>
-
-      <p className="about-intro">
-        SportsHub is a sports tournament explorer created using React.
-        It displays tournament information dynamically from JSON data.
-      </p>
-
-      <div className="about-grid">
-        <div className="about-card">
-          <h2>Sports Dataset</h2>
+      <section className="about-story">
+        <div className="story-content">
+          <h2>Our Purpose</h2>
           <p>
-            Tournament data includes sport type, location, teams, season,
-            current status, and images.
+            Sports events happen across the world every day, but information is
+            often spread across many websites. SportsHub organizes sports
+            tournament data into simple and attractive cards so users can
+            quickly browse and understand major events.
+          </p>
+          <p>
+            The project focuses on creating a clean user experience while
+            demonstrating important React concepts such as components, props,
+            JSON data, routing, and dynamic rendering.
           </p>
         </div>
 
-        <div className="about-card">
-          <h2>Dynamic Cards</h2>
+        <div className="story-highlights">
+          <div className="highlight-item">
+            <span className="highlight-number">12+</span>
+            <span className="highlight-text">Sports Tournaments</span>
+          </div>
+
+          <div className="highlight-item">
+            <span className="highlight-number">8+</span>
+            <span className="highlight-text">Sports Categories</span>
+          </div>
+
+          <div className="highlight-item">
+            <span className="highlight-number">3</span>
+            <span className="highlight-text">Main Pages</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="features-section">
+        <div className="section-heading">
+          <p>WHAT WE OFFER</p>
+          <h2>Explore Sports in a Better Way</h2>
+        </div>
+
+        <div className="about-grid">
+          <article className="about-card">
+            <div className="card-icon">🏆</div>
+            <h3>Tournament Explorer</h3>
+            <p>
+              Browse major tournaments including cricket, football, tennis,
+              basketball, kabaddi, badminton, hockey, and motorsport.
+            </p>
+          </article>
+
+          <article className="about-card">
+            <div className="card-icon">📍</div>
+            <h3>Event Information</h3>
+            <p>
+              View useful details such as tournament location, season,
+              participating teams or players, and event status.
+            </p>
+          </article>
+
+          <article className="about-card">
+            <div className="card-icon">⚡</div>
+            <h3>Dynamic React UI</h3>
+            <p>
+              Tournament cards are generated dynamically using the JavaScript
+              map() method and data stored in a JSON file.
+            </p>
+          </article>
+
+          <article className="about-card">
+            <div className="card-icon">🧩</div>
+            <h3>Reusable Components</h3>
+            <p>
+              The TournamentCard component receives props and displays each
+              tournament in a consistent, reusable layout.
+            </p>
+          </article>
+
+          <article className="about-card">
+            <div className="card-icon">🧭</div>
+            <h3>Easy Navigation</h3>
+            <p>
+              React Router provides smooth navigation between the Home, About,
+              and Contact pages without a full page reload.
+            </p>
+          </article>
+
+          <article className="about-card">
+            <div className="card-icon">📱</div>
+            <h3>Responsive Design</h3>
+            <p>
+              The layout adapts to desktop, tablet, and mobile screens for a
+              better browsing experience on different devices.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section className="sports-section">
+        <div>
+          <p className="about-label">SPORTS COVERED</p>
+          <h2>One Hub for Multiple Sports</h2>
           <p>
-            The map() method reads tournament objects and creates a card for
-            each tournament.
+            SportsHub includes a growing collection of tournaments from popular
+            sports around the world.
           </p>
         </div>
 
-        <div className="about-card">
-          <h2>Reusable Components</h2>
-          <p>
-            TournamentCard receives data through props, making the UI reusable
-            and easy to manage.
-          </p>
-
+        <div className="sports-tags">
+          <span>Cricket</span>
+          <span>Football</span>
+          <span>Tennis</span>
+          <span>Basketball</span>
+          <span>Kabaddi</span>
+          <span>Badminton</span>
+          <span>Hockey</span>
+          <span>Motorsport</span>
+          <span>Multi-Sport</span>
         </div>
-      </div>
+      </section>
+
+      <Footer/>
+
       
+    </main>
+    </BodyContainer>
     </div>
-  </BodyContainer>
-  <Footer />
-  </div>
-  
-);
+  );
 }
+
 
 export default About;

@@ -29,7 +29,9 @@ function TournamentCard({ TOURNAMENTS }) {
           <span className="status">{status}</span>
         </p>
 
-        <button>View Tournament</button>
+        <a href="/about" className="view-tournament-btn">
+          View Tournament
+        </a>
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
 import "./TournamentCard.css";
 
 function TournamentCard({ TOURNAMENTS }) {
+  const { image, name, sport, location, teams, season, status } = TOURNAMENTS[0];
+  
   return (
     <div className="tournament-card">
       <img src={image} alt={name} className="tournament-image" />

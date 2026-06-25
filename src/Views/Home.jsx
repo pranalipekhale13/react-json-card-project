@@ -1,10 +1,9 @@
-import tournaments from "../Config";
 import TournamentCard from "../Component/TournamentCard";
 import "./Home.css";
 import BodyContainer from "../Component/BodyContainer";
 import { TOURNAMENTS } from "../Config";
 import { useState } from "react";
-import { Navbar } from "../Component/Navbar";
+import Navbar from "../Component/Navbar";
 function Home() {
   return (
     <div>

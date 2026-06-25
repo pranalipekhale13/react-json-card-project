@@ -55,7 +55,7 @@ function About() {
 
         <div className="about-grid">
           <article className="about-card">
-            <div className="card-icon">🏆</div>
+            <div className="card-icon"></div>
             <h3>Tournament Explorer</h3>
             <p>
               Browse major tournaments including cricket, football, tennis,
@@ -64,7 +64,7 @@ function About() {
           </article>
 
           <article className="about-card">
-            <div className="card-icon">📍</div>
+            <div className="card-icon"></div>
             <h3>Event Information</h3>
             <p>
               View useful details such as tournament location, season,
@@ -73,7 +73,7 @@ function About() {
           </article>
 
           <article className="about-card">
-            <div className="card-icon">⚡</div>
+            <div className="card-icon"></div>
             <h3>Dynamic React UI</h3>
             <p>
               Tournament cards are generated dynamically using the JavaScript
@@ -82,7 +82,7 @@ function About() {
           </article>
 
           <article className="about-card">
-            <div className="card-icon">🧩</div>
+            <div className="card-icon"></div>
             <h3>Reusable Components</h3>
             <p>
               The TournamentCard component receives props and displays each
@@ -91,7 +91,7 @@ function About() {
           </article>
 
           <article className="about-card">
-            <div className="card-icon">🧭</div>
+            <div className="card-icon"></div>
             <h3>Easy Navigation</h3>
             <p>
               React Router provides smooth navigation between the Home, About,
@@ -100,7 +100,7 @@ function About() {
           </article>
 
           <article className="about-card">
-            <div className="card-icon">📱</div>
+            <div className="card-icon"></div>
             <h3>Responsive Design</h3>
             <p>
               The layout adapts to desktop, tablet, and mobile screens for a

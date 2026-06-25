@@ -58,6 +58,26 @@ const TOURNAMENTS = [
     "season": "2026",
     "status": "Upcoming",
     "image": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&w=800&q=80"
-  }
+  },
+  {
+    "id": 7,
+    "name": "Formula 1 World Championship",
+    "sport": "Motorsport",
+    "location": "International",
+    "teams": 10,
+    "season": "2026",
+    "status": "Ongoing",
+    "image": "https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Hockey India League",
+    "sport": "Hockey",
+    "location": "India",
+    "teams": 8,
+    "season": "2026",
+    "status": "Upcoming",
+    "image": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=800&q=80"
+  },
 ];
 export { TOURNAMENTS }

@@ -1,0 +1,42 @@
+.about-page {
+  min-height: 100vh;
+  padding: 60px 8%;
+  text-align: center;
+  background: #f8fafc;
+}
+
+.about-page h1 {
+  color: #1e3a8a;
+  font-size: 38px;
+}
+
+.about-intro {
+  max-width: 750px;
+  margin: 20px auto 40px;
+  font-size: 18px;
+  color: #475569;
+  line-height: 1.7;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 25px;
+}
+
+.about-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.about-card h2 {
+  color: #2563eb;
+  margin-bottom: 12px;
+}
+
+.about-card p {
+  color: #4b5563;
+  line-height: 1.6;
+}

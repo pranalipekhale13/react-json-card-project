@@ -1,0 +1,38 @@
+.hero {
+  background: linear-gradient(135deg, #dbeafe, #eff6ff);
+  padding: 75px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: #1e3a8a;
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #475569;
+  font-size: 18px;
+}
+
+.tournament-section {
+  padding: 50px 8%;
+}
+
+.tournament-section h2 {
+  text-align: center;
+  color: #1e3a8a;
+  font-size: 32px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #64748b;
+  margin: 12px 0 30px;
+}
+
+.tournament-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}

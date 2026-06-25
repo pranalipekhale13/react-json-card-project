@@ -1,0 +1,63 @@
+.tournament-card {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.13);
+  transition: 0.3s;
+}
+
+.tournament-card:hover {
+  transform: translateY(-8px);
+}
+
+.tournament-image {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+}
+
+.tournament-info {
+  padding: 18px;
+}
+
+.sport-tag {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.tournament-info h2 {
+  color: #111827;
+  margin: 13px 0;
+  font-size: 22px;
+}
+
+.tournament-info p {
+  margin: 8px 0;
+  color: #4b5563;
+}
+
+.status {
+  margin-left: 7px;
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.tournament-info button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 7px;
+  background: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.tournament-info button:hover {
+  background: #1d4ed8;
+}

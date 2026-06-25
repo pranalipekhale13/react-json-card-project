@@ -1,10 +1,11 @@
 .navbar {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px;
     background-color: #f0f0f0;
     border :1px solid #262626;
     border-radius: 50px;
+    margin: 20px 10px;
 
 }
 
@@ -34,4 +35,15 @@
     margin-right: 8px;
     width: 20px;
     height: 20px;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+.logo-image {
+    width: 120px;
+    height: 60px;
+    margin-right: 5px;
 }

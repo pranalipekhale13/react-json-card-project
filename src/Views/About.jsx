@@ -1,8 +1,10 @@
 import "./About.css";
 import BodyContainer from "../Component/BodyContainer";
 import Navbar from "../Component/Navbar";
+import Footer from "../Component/Footer";
 function About() {
   return (
+    <div>
     <BodyContainer>
       <Navbar />
       <div className="about-page">
@@ -40,8 +42,12 @@ function About() {
 
         </div>
       </div>
+      
     </div>
   </BodyContainer>
+  <Footer />
+  </div>
+  
 );
 }
 

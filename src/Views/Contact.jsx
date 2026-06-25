@@ -1,7 +1,7 @@
 import "./Contact.css";
 import Navbar from "../Component/Navbar";
 import BodyContainer from "../Component/BodyContainer";
-
+import Footer from "../Component/Footer";
 function Contact() {
   return (
     <div>
@@ -21,6 +21,7 @@ function Contact() {
       </div>
     </div>
     </BodyContainer>
+    <Footer/>
     </div>
   );
 }

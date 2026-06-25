@@ -1,5 +1,5 @@
 import "./About.css";
-import BodyContainer from "../components/BodyContainer";
+import BodyContainer from "../Component/BodyContainer";
 import { Navbar } from "../Component/Navbar";
 function About() {
   return (
